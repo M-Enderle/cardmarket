@@ -1,4 +1,4 @@
-# cardmarket helper tool
+# cardmarket helper tool for magic the gathering
 A helper program to optimize the buying process of single cards using a card list from [tappedout](https://tappedout.net/).
 ## Install
 Clone this repository
