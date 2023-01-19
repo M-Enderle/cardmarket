@@ -1,4 +1,4 @@
-# MKM
+# cardmarket helper tool
 A helper program to optimize the buying process of single cards using a card list from [tappedout](https://tappedout.net/).
 ## Install
 Clone this repository
