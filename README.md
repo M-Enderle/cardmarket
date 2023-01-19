@@ -7,7 +7,7 @@ git clone https://github.com/THDMoritzEnderle/MKM
 ```
 Install the dependencies, you need to have [python](https://www.python.org/) installed.
 ```bash
-cd MKM
+cd cardmarket
 pip install -r requirements.txt
 ```
 Run the UI with
@@ -30,10 +30,10 @@ After the cards are retrieved, you can validate them by clicking on the "Validat
 see a list of all cards. Some may not have been found, because the names on MKM can differ. You can fix this
 by locating the cards with missing urls and fill in the correct url. 
 
-To do this, you can use the [advanced search](https://www.cardmarket.com/de/Magic/AdvancedSearch) 
+To do this, you can use the [advanced search](https://www.cardmarket.com/en/Magic/AdvancedSearch) 
 function of MKM. Always insert the url of a generic set, the url should be
-in the format `https://www.cardmarket.com/de/Magic/Cards/<Card-Name>`. For example, the url for
-`Lightning Bolt` is `https://www.cardmarket.com/de/Magic/Cards/lightning-bolt`.
+in the format `https://www.cardmarket.com/en/Magic/Cards/<Card-Name>`. For example, the url for
+`Lightning Bolt` is `https://www.cardmarket.com/en/Magic/Cards/lightning-bolt`.
 
 For each card found earlier, you can now select the sets you want to buy from. By default, all sets are
 selected. This is most often the cheapest option, but can lead to buying cards in illegal sets.
