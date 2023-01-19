@@ -67,6 +67,14 @@ offer for each card.
 - [ ] Refresh sets on the fly when manually setting urls
 - [ ] Add support for more deck formats
 
+## Liability
+This program is provided as is. I am not responsible for any damage caused by using this program.
+The program uses scraping to retrieve data from MKM. This is against the terms of service of MKM. Use this
+program at your own risk.
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
 ## Support me 
 If you like this project, you can support me by buying me a coffee. 
 
