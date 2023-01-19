@@ -9,7 +9,7 @@ set_names = pd.read_csv("set_names.csv")
 st.set_page_config(layout="wide")
 
 # title
-st.title("MKM Helper")
+st.title("cardmarket Helper")
 st.sidebar.title("Steps")
 
 # make a button to clear session state on the sidebar
@@ -37,7 +37,7 @@ if step == "Upload data":
         session.commit()
 
     st.markdown("# ")
-    st.markdown("In this step, you can upload a file or paste a decklist exported from tappedout.net. The programm will then retrieve all cards from the decklist and search them on MKM.")
+    st.markdown("In this step, you can upload a file or paste a decklist exported from tappedout.net. The programm will then retrieve all cards from the decklist and search them on cardmarket.")
     st.markdown("# ")
 
     # ask the user to upload a txt file
@@ -67,7 +67,7 @@ if step == "Retrieve cards":
         st.stop()
 
     st.markdown("# ")
-    st.markdown("In this step, the programm will retrieve all cards from the decklist and search them on MKM.")
+    st.markdown("In this step, the programm will retrieve all cards from the decklist and search them on cardmarket.")
     st.markdown("# ")
     st.markdown("Retrieving cards...")
 
@@ -101,7 +101,7 @@ if step == "Retrieve cards":
 
         url, sets = get_url(name)
         if not url:
-            st.markdown(f"Warning: Could not find card '{name}' on MKM. You will be asked in the next step to enter the URL manually.")
+            st.markdown(f"Warning: Could not find card '{name}' on cardmarket. You will be asked in the next step to enter the URL manually.")
 
         card = Card(name=name, set_short=set_short, set_name=set_name, set_code=set_code, url=url, to_buy=amount, sets=sets)
         session.add(card)
